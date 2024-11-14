@@ -1,0 +1,19 @@
+.switch-container {
+  display: flex;
+  align-items: center;
+}
+
+.switch {
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: 2px solid #ccc;
+  background: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.switch.active {
+  background: #007bff;
+  color: white;
+  border-color: #007bff;
+}
